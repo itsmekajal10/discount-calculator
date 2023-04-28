@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: 'Itim', cursive;
+    }
+    body{
+        background-color: rgb(247, 237, 219);
+    }
+    
+    .container{
+        background-color: #0E2F2F;
+        font-family: 'Itim', cursive;
+
+        width: 600px;
+        background-color: #0d5c63;
+        margin-top: 50px;
+        margin-left:200px;
+        border-radius: 10px;
+    }
+    h2{
+        text-shadow: 2px 2px 1px rgb(91, 92, 95);
+        padding: 10px;
+        margin-bottom: 25px;
+        color:cyan;
+    }
+#calAge{
+    background-color: rgb(247, 173, 82);
+    border-radius: 10px;
+    padding:5px;
+    font-size: large;
+    margin-right: 8px;
+    margin-top: 10px;
+
+
+   }
+   #calAge:hover{
+    background-color: rgb(83, 83, 82);
+
+   }
+   input{
+    border-radius: 10px;
+    background-color: gray;
+    color:rgb(241, 245, 249);
+    padding:5px;
+    font-size: large;
+
+   }
+
+   .calcText{
+    text-align: center;
+   }
+#total{
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#calReset{
+    background-color: rgb(247, 173, 82);
+    border-radius: 10px;
+    padding:5px;
+    font-size: large;
+
+}
+
+#labelAge{
+padding-right: 10px;
+}
+ 
+.socialMedia{
+    padding: 3px;
+
+}
+a{
+   padding:3px;
+   background-color: #333838;
+   margin-right: 10px;
+      
+}
