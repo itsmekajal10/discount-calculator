@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Email Subscribe</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background-color: white;
+      }
+
+      .container {
+        width: 400px;
+        height: 560px;
+        text-align: center;
+        margin-left: 300px;
+        margin-top: 30px;
+        border-radius: 5px;
+        border: solid 1px rgb(167, 163, 163);
+        background-color: white;
+      }
+      .heading {
+        text-align: left;
+        margin-left: 28px;
+        margin-top: 18px;
+        padding: 1px;
+      }
+      .paraText {
+        background-color: rgb(123, 178, 230);
+        border-radius: 11px;
+        border: 1px solid rgb(0, 132, 255);
+
+        padding: 3px;
+        margin: 25px;
+        margin-top: 6px;
+      }
+      #reason {
+        width: 230px;
+        height: 30px;
+      }
+      #para {
+        text-align: left;
+        margin-left: 15px;
+        padding: 6px;
+        color: rgb(223, 223, 167);
+      }
+
+      #button {
+        margin-bottom: 2px;
+        margin-left: 265px;
+        margin-top: 9px;
+        background-color: aliceblue;
+        border-radius: 5px;
+        padding: 4px;
+        border: 2px solid rgb(199, 193, 193);
+        color: gray;
+      }
+      hr {
+        margin-top: 15px;
+        margin-left: 31px;
+        margin-right: 31px;
+        margin-bottom: 20px;
+        color: rgb(245, 243, 243);
+      }
+      #text1 {
+        width: 339px;
+        height: 35px;
+        border: 2px solid rgb(199, 193, 193);
+        border-radius: 7px;
+        background-color: aliceblue;
+      }
+      #text2 {
+        width: 339px;
+        height: 60px;
+        border: 2px solid rgb(199, 193, 193);
+        border-radius: 7px;
+        background-color: aliceblue;
+
+        resize: none;
+        outline: none;
+      }
+      #emailText:after {
+        content: "*";
+        color: red;
+      }
+      #labelU {
+        font-weight: bold;
+        margin-right: 199px;
+      }
+      #emailText {
+        margin-right: 280px;
+        caret-color: rgb(226, 221, 221);
+        font-weight: bold;
+      }
+      textarea::placeholder {
+        padding: 5px;
+        padding-top: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="heading">
+        <h3>Subscriber</h3>
+      </div>
+      <hr />
+
+      <div class="paraText">
+        <p id="para">
+          We're sorry to see you go, but hey, no hard<br />
+          feelings, hopefully we will see you back<br />
+          one day.<br />Please fill in your email address in order to<br />
+          unsubscription from the list.<br />You will receieve an email to
+          confirm your<br />
+          unsubscribe, just to make sure this is<br />
+          not an accident or somebody else tries to<br />
+          unsubscribe you.
+        </p>
+      </div>
+
+      <label for="emailText" id="emailText" value="Custom caret color"
+        >Email</label
+      ><br />
+      <input type="email" id="text1" required /><br /><br /><br />
+
+      <label for="labelU" id="labelU"> Unsubscribe reason</label><br />
+      <textarea id="text2" placeholder=" Unsubscribe reason"></textarea>
+      
+
+      <hr>
+      <button type="button" id="button">Unsubscribe</button>
+    </div>
+  </body>
+</html>
